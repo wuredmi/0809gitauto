@@ -25,7 +25,7 @@ jobs:
  
       - name: Run script
         env:
-          GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.13APeNnhU8H-SkKCRhqBCG4grxpgR6Lmjg2ajxpeszAk}}
+          GOOGLE_SHEETS_CREDENTIALS: ${{ 13APeNnhU8H-SkKCRhqBCG4grxpgR6Lmjg2ajxpeszAk}}
         run: python update_sheet.py
 
   
