@@ -55,5 +55,5 @@ df["link"]=df["newsId"].apply(lambda x: "https://m.cnyes.com/new/id/" + str(x)) 
 df.to_csv("news.csv", encoding='utf-8-sig', index=False)
 df.to_excel("news.xlsx", index=False)
 
-print(df)
+#print(df)
 
