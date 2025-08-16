@@ -19,7 +19,7 @@ import json
 data = []
 
 print("Hello Python!!")
-print(f"今天日期{dt.datetime.today().strftime("%Y%m%d")}")
+#print(f"今天日期{dt.datetime.today().strftime("%Y%m%d")}")
 
 #原始資料連結
 #https://api.cnyes.com/media/api/v1/newslist/category/headline?startAt=1751508401&endAt=1754100401&isIndexHeadline=0&isCategoryHeadline=0&limit=10
